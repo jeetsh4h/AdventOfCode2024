@@ -11,10 +11,6 @@ Advent of Code is an annual programming event created by [Eric Wastl](http://was
 Each day's solution is organized in its own directory (Day01, Day02, etc.) containing:
 - `part_one.py`: Solution for the first puzzle
 - `part_two.py`: Solution for the second puzzle
-- `input.txt`: Puzzle input data
-- `test_input.txt`: Example input data (from the puzzle description)
-
-**Note**: Part two of the puzzle may have different test input than part one. Make sure to verify if a separate test input is provided for part two and adjust your solution accordingly.
 
 ## Running the Solutions
 
@@ -23,6 +19,7 @@ To run any solution:
 python DayXX/part_one.py  # Replace XX with day number
 python DayXX/part_two.py
 ```
+**Note:** The inputs can be found at the Advent of Code [website](https://adventofcode.com/2024) with the problem description for each day.
 
 ## Progress
 
