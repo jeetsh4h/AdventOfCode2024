@@ -1,4 +1,4 @@
-with open('./Day01/input.txt') as f:
+with open("./Day01/input.txt") as f:
     lines = f.readlines()
 
 # could probably insert the elements sorted here, for optimisation
@@ -9,5 +9,6 @@ for line in lines:
     list2.append(int(elements[1]))
 
 print(sum(abs(x - y) for x, y in zip(sorted(list1), sorted(list2))))
+
 # test_input => 11
 # input => 2769675

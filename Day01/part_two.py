@@ -1,11 +1,11 @@
 from collections import defaultdict
 
-with open('./Day01/input.txt') as f:
+with open("./Day01/input.txt") as f:
     lines = f.readlines()
 
 # element1: frequency_in_list1
-frequency1 = defaultdict(lambda : 0)
-frequency2 = defaultdict(lambda : 0)
+frequency1 = defaultdict(lambda: 0)
+frequency2 = defaultdict(lambda: 0)
 
 for line in lines:
     elements = line.split()
@@ -17,5 +17,6 @@ for k, v in frequency1.items():
     answer += (k * frequency2[k]) * v
 
 print(answer)
+
 # test_input => 31
 # input => 24643097

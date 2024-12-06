@@ -22,7 +22,7 @@ for i in range(n_rows):
             count += 1
         if vertical_word[::-1] == word_to_find:
             count += 1
-        
+
         diag_mat = search_grid[i : i + 4, j : j + 4]
         left_to_right_diag = "".join(np.diag(diag_mat))
         if left_to_right_diag == word_to_find:

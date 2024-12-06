@@ -40,7 +40,7 @@ for update in updates:
                     correct_update[i], correct_update[j] = (
                         correct_update[j],
                         correct_update[i],
-                    )   # swap
+                    )  # swap
 
         # print(correct_update)
         answer += correct_update[len(correct_update) // 2]
